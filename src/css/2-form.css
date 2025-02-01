@@ -1,0 +1,62 @@
+  .feedback-form {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 408px;
+    max-height: 296px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  label input {
+      box-sizing: border-box;
+      padding: 8px 16px;
+    height: 39px;
+    stroke: #808080;
+  }
+  
+  label textarea {
+      box-sizing: border-box;
+      padding: 8px 16px;
+    height: 79px;
+    stroke: #808080;
+    margin-bottom: 8px;
+  }
+  label input:hover, label textarea:hover{
+      stroke: black;
+  }
+  .input-placeholder{
+      font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  }
+  .feedback-form button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  .feedback-form button:hover{
+      background-color: #6c8cff;
+  }
