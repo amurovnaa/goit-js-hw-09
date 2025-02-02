@@ -85,7 +85,6 @@ const galleryTemplate = images
   .join('');
 galleryElem.insertAdjacentHTML('beforeend', galleryTemplate);
 
-
 let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
@@ -93,8 +92,7 @@ let lightbox = new SimpleLightbox('.gallery a', {
   showCounter: false,
 });
 
-
 lightbox.on('shown.simplelightbox', function () {
-	document.querySelector('.sl-wrapper').style.backgroundColor = 'rgba(46, 47, 66, 0.8)';
-
+  document.querySelector('.sl-wrapper').style.backgroundColor =
+    'rgba(46, 47, 66, 0.8)';
 });
